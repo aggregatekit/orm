@@ -1,0 +1,19 @@
+# Composer dependencies
+/vendor/
+
+# PHPUnit cache
+.phpunit.result.cache
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# IDEs/editors
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
