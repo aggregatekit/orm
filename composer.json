@@ -8,11 +8,17 @@
       "AggregateKit\\Orm\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "AggregateKit\\Orm\\Tests\\": "tests/"
+    }
+  },
   "require": {
     "php": "^8.4"
   },
   "require-dev": {
-    "phpunit/phpunit": "^10"
+    "phpunit/phpunit": "^10",
+    "phpstan/phpstan": "^2.1"
   },
   "scripts": {
     "test": "phpunit"

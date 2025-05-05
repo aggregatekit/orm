@@ -1,0 +1,10 @@
+services:
+  orm-test:
+    build: .
+    volumes:
+      - .:/app
+    command: >
+      bash -c "
+        composer install &&
+        vendor/bin/phpunit
+      "
