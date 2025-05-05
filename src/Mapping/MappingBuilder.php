@@ -4,10 +4,10 @@ namespace AggregateKit\Orm\Mapping;
 
 final class MappingBuilder
 {
-    private string $tableName;
-    private string $identifierField;
+    public private(set) string $tableName;
+    public private(set) string $identifierField;
     /** @var string[] */
-    private array $fields;
+    public private(set) array $fields;
 
     public function __construct(private(set) readonly string $className) {
         $this->fields = [];
